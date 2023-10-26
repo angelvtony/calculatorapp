@@ -37,8 +37,6 @@ class MainActivity : AppCompatActivity() {
         onEqual()
         binding.dataTv.text = binding.resultsTv.text.toString().drop(1)
     }
-
-
     fun onDigitClick(view: View) {
          if (stateError){
              binding.dataTv.text = (view as Button).text

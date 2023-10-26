@@ -90,9 +90,9 @@
             android:orientation="horizontal">
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_7"
                 style="@style/digitButton"
                 android:onClick="onDigitClick"
-                android:id="@+id/btn_7"
                 android:text="7" />
 
             <com.google.android.material.button.MaterialButton
